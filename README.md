@@ -84,15 +84,18 @@ You are required to submit the following:
 
 * The URLs of the GitHub repositories
 
-## Revision History
+
+## Version History
 
 portfolio_sa_v1.0 - Initial git commit; Used crude layout from in-class assignment for both index.html & style.css.
 
 portfolio_sa_v1.1 - Added Bootstrap CSS link (index.html lines 16-20); Commented and formatted the head of index.html for readability. 
 
-portfolio_sa_v1.2 - Added Navbar to index.html as place holder element to begin web page mock up (index.html lines 36-85). 
+portfolio_sa_v1.2 - Added Navbar to index.html as place holder element to begin web page mock-up (index.html lines 36-85). 
 
 portfolio_sa_v1.3 - Commented-out undesired aspects of stock nav bar element (index.html lines 40, 42-44, 62-83, 87-90). Reduced down to 3 nav links "about", "portfolio", "contact".
+
+portfolio_sa_v1.4 - Changed title element to "About" (index.html line 12); Copied contents of index.html to portfolio.html & contact.html, leaving only the nav element in the body w/ reconfigured link adresses (portfolio.html & contact.html lines 44, 48, 52)(This accounts for directory level difference between index.html and the other 2 html files in assests).
 
 - - -
 
