@@ -88,6 +88,8 @@ You are required to submit the following:
 
 portfolio_sa_v1.0 - Initial git commit; Used crude layout from in-class assignment for both index.html & style.css.
 
+portfolio_sa_v1.1 - Added Bootstrap CSS link; Commented and formatted the head for readability. 
+
 - - -
 
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
