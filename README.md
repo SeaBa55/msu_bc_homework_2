@@ -97,7 +97,12 @@ portfolio_sa_v1.3 - Commented-out undesired aspects of stock nav bar element (in
 
 portfolio_sa_v1.4 - Changed title element to "About" (index.html line 12); Copied contents of index.html to portfolio.html & contact.html, leaving only the nav element in the body w/ reconfigured link adresses (portfolio.html & contact.html lines 44, 48, 52)(This accounts for directory level difference between index.html and the other 2 html files in assests).
 
-portfolio_sa_v1.5 - Removed commented-out sections (index.html lines 62-83, 87-90); Removed "assests" from style.css relative path, to reestablish link to styles sheet (portfolio.html & contact.html line 26).
+portfolio_sa_v1.5 - Removed commented-out sections (index.html lines 62-83, 87-90); Removed "assests" from style.css relative path, to establish link to styles sheet (portfolio.html & contact.html line 26).
+
+portfolio_sa_v1.6 - Added button element for toggling the nav options while the site is scaled down for mobile (index.html lines 43-54)(portfolio.html contact.html lines 40-51); Also added jQuery/ Bootstrap script elements to get the button to toggle. 
+
+to-do
+center nav bar enements and resize for mobile; remove lg from nav elements; also change the navbar logo to about showing the user the active menu item; Also change "your name" to "name". 
 
 - - -
 
