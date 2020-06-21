@@ -101,8 +101,10 @@ portfolio_sa_v1.5 - Removed commented-out sections (index.html lines 62-83, 87-9
 
 portfolio_sa_v1.6 - Added button element for toggling the nav options while the site is scaled down for mobile (index.html lines 43-54)(portfolio.html contact.html lines 40-51); Also added jQuery/ Bootstrap script elements to get the button to toggle. 
 
+portfolio_sa_v1.7 - Added the Nav Bar Brand back in, and added my name in as the "brand" (index.html portfolio.html contact.html line 40); Removed header element with "Your Name" content since I made the nav element display my name (index.html portfolio.html contact.html lines 32-34).
+
 to-do
-center nav bar enements and resize for mobile; remove lg from nav elements; also change the navbar logo to about showing the user the active menu item; Also change "your name" to "name". 
+center nav bar enements and resize for mobile; remove lg from nav elements.
 
 - - -
 
