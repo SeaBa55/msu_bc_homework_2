@@ -103,8 +103,10 @@ portfolio_sa_v1.6 - Added button element for toggling the nav options while the 
 
 portfolio_sa_v1.7 - Added the Nav Bar Brand back in, and added my name in as the "brand" (index.html portfolio.html contact.html line 40); Removed header element with "Your Name" content since I made the nav element display my name (index.html portfolio.html contact.html lines 32-34).
 
+portfolio_sa_v1.8 - Added a mian semantic tags around the about placeholder content (index.html lines 76, 92); Added sticky footer (index.html lines 95-99)(portfolio.html contact.html lines 78-82); Added footer style properties for the sticky footer (styles.css lines 58-65);  
+
 to-do
-center nav bar enements and resize for mobile; remove lg from nav elements.
+center nav bar enements and resize for mobile; set mobile break point (lg,md,sm).
 
 - - -
 

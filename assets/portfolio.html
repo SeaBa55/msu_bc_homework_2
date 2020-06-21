@@ -3,85 +3,90 @@
 <!-- index.html set to US style of english -->
 <html lang="en-us">
 
-<head>
+  <head>
 
-  <!-- UTF-8 character encoding selected for idex.HTML -->
-  <meta charset="UTF-8">
+    <!-- UTF-8 character encoding selected for idex.HTML -->
+    <meta charset="UTF-8">
 
-  <!-- page title -->
-  <title>Portfolio</title>
+    <!-- page title -->
+    <title>Portfolio</title>
 
-  <!-- bootstrap CSS --> 
-  <link 
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
-    crossorigin="anonymous"
-  />
+    <!-- bootstrap CSS --> 
+    <link 
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+      crossorigin="anonymous"
+    />
 
-  <!-- alt styles CSS -->
-  <link 
-    rel="stylesheet" 
-    type="text/css" 
-    href="style.css"
-  />
+    <!-- alt styles CSS -->
+    <link 
+      rel="stylesheet" 
+      type="text/css" 
+      href="style.css"
+    />
 
-</head>
+  </head>
 
-<body>
+  <body>
+    
+    <!-- NavBar (modified - copied and pasted from https://getbootstrap.com/docs/4.5/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <!-- Nav Bar Brand/Logo (Added back in) -->
+      <a class="navbar-brand" href="#">Sebastian Arrazola</a>
+
+      <!-- Nav Menu Button -->
+      <button 
+
+        class="navbar-toggler"
+        data-toggle="collapse" 
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
   
-  <!-- Static NavBar (modified - copied and pasted from https://getbootstrap.com/docs/4.5/components/navbar/ -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-
-    <!-- Nav Bar Brand/Logo (Added back in) -->
-    <a class="navbar-brand" href="#">Sebastian Arrazola</a>
-
-    <!-- Nav Menu Button -->
-    <button 
-
-      class="navbar-toggler"
-      data-toggle="collapse" 
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" 
-      aria-expanded="false" 
-      aria-label="Toggle navigation">
-
-      <span class="navbar-toggler-icon"></span>
-
-    </button>
- 
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      
-      <ul class="navbar-nav mr-auto">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         
-        <li class="nav-item active">
-          <a class="nav-link" href="../index.html">About<span class="sr-only">(current)</span></a>
-        </li>
+        <ul class="navbar-nav mr-auto">
+          
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">About<span class="sr-only">(current)</span></a>
+          </li>
+          
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <!-- add content here -->
+
+    <!-- Sticky Footer (modified - copied and pasted from https://getbootstrap.com/docs/4.5/examples/sticky-footer-navbar/ -->
+    <footer class="footer mt-auto py-2 bg-dark">
         
-        <li class="nav-item active">
-          <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-        </li>
+      <p>© 2020 v1.8 - updated: 6/20/20 by S. Arrazola</p>
+    
+    </footer>
 
-        <li class="nav-item active">
-          <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-        </li>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-      </ul>
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-    </div>
-
-  </nav>
-
-<!-- add content here -->
-
-
-<!-- jQuery CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-<!-- Bootstrap JavaScript CDN -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-</body>
+  </body>
 
 </html>

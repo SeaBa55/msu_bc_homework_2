@@ -3,105 +3,107 @@
 <!-- index.html set to US style of english -->
 <html lang="en-us">
 
-<head>
+  <head>
 
-  <!-- UTF-8 character encoding selected for idex.HTML -->
-  <meta charset="UTF-8">
+    <!-- UTF-8 character encoding selected for idex.HTML -->
+    <meta charset="UTF-8">
 
-  <!-- page title -->
-  <title>About</title>
+    <!-- page title -->
+    <title>About</title>
 
-  <!-- bootstrap CSS -->
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-    crossorigin="anonymous"
-  />
+    <!-- bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
 
-  <!-- alt styles CSS -->
+    <!-- alt styles CSS -->
     <link
       rel="stylesheet"
       type="text/css"
       href="assets/style.css"
     />
 
-</head>
+  </head>
 
-<body>
-  
-  <!-- NavBar (modified - copied and pasted from https://getbootstrap.com/docs/4.5/components/navbar/ -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <body>
+    
+    <!-- NavBar (modified - copied and pasted from https://getbootstrap.com/docs/4.5/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-    <!-- Nav Bar Brand/Logo (Added back in) -->
-    <a class="navbar-brand" href="#">Sebastian Arrazola</a>
+      <!-- Nav Bar Brand/Logo (Added back in) -->
+      <a class="navbar-brand" href="#">Sebastian Arrazola</a>
 
-    <!-- Nav Menu Button -->
-    <button
+      <!-- Nav Menu Button -->
+      <button
 
-      class="navbar-toggler"
-      data-toggle="collapse"
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation">
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
 
-      <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
 
-    </button>
+      </button>
 
-    <!-- Nav Menu Links -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Nav Menu Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-      <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto">
 
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-        </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+          </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="assets/portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="assets/portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="assets/contact.html">Contact<span class="sr-only">(current)</span></a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="assets/contact.html">Contact<span class="sr-only">(current)</span></a>
+          </li>
 
-      </ul>
+        </ul>
 
-    </div>
+      </div>
 
-  </nav>
+    </nav>
 
+    <main>
+    
+      <div class="container">
 
-  <div class="container">
+        <section id="main-bio">
 
-    <section id="main-bio">
+          <h2>Sebastian Arrazola</h2>
 
-      <h2>Sebastian Arrazola</h2>
+          <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
 
-      <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+          <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
 
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-    </section>
+        </section>
+        
+      </div>
 
-    <section id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">sebastianarrazola@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">SeaBa55</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </section>
-  </div>
+    </main>
 
+    <!-- Sticky Footer (modified - copied and pasted from https://getbootstrap.com/docs/4.5/examples/sticky-footer-navbar/ -->
+    <footer class="footer mt-auto py-2 bg-dark">
+        
+      <p>© 2020 v1.8 - updated: 6/20/20 by S. Arrazola</p>
+      
+    </footer>
 
-<!-- jQuery CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- jQuery CDN: Nav element-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-<!-- Bootstrap JavaScript CDN -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JavaScript CDN: Nav element -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-</body>
+  </body>
 
 </html>
