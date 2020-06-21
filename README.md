@@ -103,10 +103,12 @@ portfolio_sa_v1.6 - Added button element for toggling the nav options while the 
 
 portfolio_sa_v1.7 - Added the Nav Bar Brand back in, and added my name in as the "brand" (index.html portfolio.html contact.html line 40); Removed header element with "Your Name" content since I made the nav element display my name (index.html portfolio.html contact.html lines 32-34).
 
-portfolio_sa_v1.8 - Added a mian semantic tags around the about placeholder content (index.html lines 76, 92); Added sticky footer (index.html lines 95-99)(portfolio.html contact.html lines 78-82); Added footer style properties for the sticky footer (styles.css lines 58-65);  
+portfolio_sa_v1.8 - Added a mian semantic tags around the about placeholder content (index.html lines 76, 92); Added sticky footer (index.html lines 95-99)(portfolio.html contact.html lines 78-82); Added footer style properties for the sticky footer (style.css lines 58-65);  
+
+portfolio_sa_v1.9 - Removed heading 2 with my name in it (index.html line 82); Added 3 paragraphs of lorem (index.html lines 84-86); Added .sticky-top class to my nav element so that the user can scroll down if the content on the page is long, and the nave bar will still be visible (index.html line 34); Removed unused/unwanted classes and id's to fix bugs with the nav bar (style.css lines 12-56).
 
 to-do
-center nav bar enements and resize for mobile; set mobile break point (lg,md,sm).
+center nav bar enements and resize for mobile; set mobile break point (lg,md,sm). change mr-auto to ml-auto for expanded nav links to appear on left.
 
 - - -
 
