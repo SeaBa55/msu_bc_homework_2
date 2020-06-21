@@ -107,7 +107,9 @@ portfolio_sa_v1.8 - Added a mian semantic tags around the about placeholder cont
 
 portfolio_sa_v1.9 - Removed heading 2 with my name in it (index.html line 82); Added 3 paragraphs of lorem (index.html lines 84-86); Added .sticky-top class to my nav element so that the user can scroll down if the content on the page is long, and the nave bar will still be visible (index.html line 34); Removed unused/unwanted classes and id's to fix bugs with the nav bar (style.css lines 12-56).
 
-portfolio_sa_v2.0 - Changes mr-auto to ml-auto to shift the nav links to the left when using larger view port (index.html line 56); Updated website version number in the footer text (index.html line 97).
+portfolio_sa_v2.0 - Changes mr-auto to ml-auto to shift the nav links to the left when using larger view port (index.html line 56); Updated website version number in the footer text (index.html line 97)(Note: will not make a note of version number updates to the footer going forward).
+
+portfolio_sa_v2.1 - Added role= "main" to the main element to help screen readers and other assistive technologies understand where the main content begins (index.html line 76); Added class "my-container" to further style the container in the main section (index.html line 78); Created a card around the main content in the about section (index.html lines 80-100).
 
 to-do
 center nav bar enements and resize for mobile; set mobile break point (lg,md,sm). change mr-auto to ml-auto for expanded nav links to appear on left. Make sticky footer collaps when it touches content. Add line in between header and image in the about section.
