@@ -111,8 +111,10 @@ portfolio_sa_v2.0 - Changes mr-auto to ml-auto to shift the nav links to the lef
 
 portfolio_sa_v2.1 - Added role= "main" to the main element to help screen readers and other assistive technologies understand where the main content begins (index.html line 76); Added class "my-container" to further style the container in the main section (index.html line 78); Created a card around the main content in the about section (index.html lines 80-100).
 
-to-do
-center nav bar enements and resize for mobile; set mobile break point (lg,md,sm). change mr-auto to ml-auto for expanded nav links to appear on left. Make sticky footer collaps when it touches content. Add line in between header and image in the about section.
+portfolio_sa_v2.2 - Added line divider between heading and image withing the card in the "main" element (index.html line 89)(style.css lines 11-13); Added id selector for about image with padding top to give space between image and line (style.css lines 15-17). 
+
+to-do:
+center nav bar enements and resize for mobile; set mobile break point (lg,md,sm). Make sticky footer collaps when it touches the contents of the about card.
 
 - - -
 
