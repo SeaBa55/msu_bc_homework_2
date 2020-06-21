@@ -113,10 +113,12 @@ portfolio_sa_v2.1 - Added role= "main" to the main element to help screen reader
 
 portfolio_sa_v2.2 - Added line divider between heading and image withing the card in the "main" element (index.html line 89)(style.css lines 11-13); Added id selector for about image with padding top to give space between image and line (style.css lines 15-17). 
 
-portfolio_sa_v2.3 - Added a container around the footer text to add collapsing functionality (index.html lines 111,113); Changed the footer text paragraph tag to a span tag, so as to not render a blank line below (index.html line 112); Added class="text-muted" to grey out the footer text (testing this style)(index.html line 112); Added html selector with the relative position property and min-height set to 100%, added a margine-bottom of 40px to the body selector since my footer is 40px in height, set the height of the footer to 40px, added property line-height to center text vertically, added text-align: center (style.css lines 1-4, 15, 27, 33, 36, 40).  
+portfolio_sa_v2.3 - Added a container around the footer text to add collapsing functionality (index.html lines 111,113); Changed the footer text paragraph tag to a span tag, so as to not render a blank line below (index.html line 112); Added class="text-muted" to grey out the footer text (testing this style)(index.html line 112); Added html selector with the relative position property and min-height set to 100%, added a margine-bottom of 40px to the body selector since my footer is 40px in height, set the height of the footer to 40px, added property line-height to center text vertically, added text-align: center (style.css lines 1-4, 15, 27, 33, 36, 40).
+
+portfolio_sa_v2.4 - Copied all the changes made to improve the nav bar, footer, and page layout in index.html and moved them to portfolio.html, and contact.html as template to start working off. Other than the relative link paths, and header text, the three pages are the same.
 
 to-do:
-center nav bar enements and resize for mobile; set mobile break point (lg,md,sm).
+center nav bar enements and resize for mobile; set mobile break point (lg,md,sm). Add content to portfolio.html & contact.html.
 
 - - -
 
