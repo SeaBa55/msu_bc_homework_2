@@ -111,7 +111,7 @@ portfolio_sa_v2.0 - Changes mr-auto to ml-auto to shift the nav links to the lef
 
 portfolio_sa_v2.1 - Added role= "main" to the main element to help screen readers and other assistive technologies understand where the main content begins (index.html line 76); Added class "my-container" to further style the container in the main section (index.html line 78); Created a card around the main content in the about section (index.html lines 80-100).
 
-portfolio_sa_v2.2 - Added line divider between heading and image withing the card in the "main" element (index.html line 89)(style.css lines 11-13); Added id selector for about image with padding top to give space between image and line (style.css lines 15-17). 
+portfolio_sa_v2.2 - Added line divider between heading and image within the card in the "main" element (index.html line 89)(style.css lines 11-13); Added id selector for about image with padding top to give space between image and line (style.css lines 15-17). 
 
 portfolio_sa_v2.3 - Added a container around the footer text to add collapsing functionality (index.html lines 111,113); Changed the footer text paragraph tag to a span tag, so as to not render a blank line below (index.html line 112); Added class="text-muted" to grey out the footer text (testing this style)(index.html line 112); Added html selector with the relative position property and min-height set to 100%, added a margine-bottom of 40px to the body selector since my footer is 40px in height, set the height of the footer to 40px, added property line-height to center text vertically, added text-align: center (style.css lines 1-4, 15, 27, 33, 36, 40).
 
@@ -121,7 +121,10 @@ portfolio_sa_v2.5 - Added class="float-md-left" to float left on viewports sized
 
 portfolio_sa_v2.6 - Added relative link to the for my pictue in the about section (index.html line 94) "about" Removed img selector and its properties (style.css lines 32-34); Added padding to my image to give space between the picture and the text wrap (style.css lines 28,29).
 
-portfolio_sa_v2.7 - Added line divider between heading and image withing the card in the "main" element (contact.html line 90); Added form elements for First and Last name, Email Address, and Message (contact.html line 92-132); Added a top padding of 20px to the feilds mentioned above to space them out (style.css lines 22-24).
+portfolio_sa_v2.7 - Added line divider between heading and image within the card in the "main" element (contact.html line 90); Added form elements for First and Last name, Email Address, and Message (contact.html line 92-132); Added a top padding of 20px to the feilds mentioned above to space them out (style.css lines 22-24).
+
+portfolio_sa_v2.8 - Added viewport meta element, ensuring content will be display properly according to the device width (index.html portfolio.html contact.html line 10).
+ 
 
 to-do:
 Add personal content to index.html, portfolio.html & contact.html. Add structure to portfolio.html. 
