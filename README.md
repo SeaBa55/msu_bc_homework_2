@@ -124,6 +124,8 @@ portfolio_sa_v2.6 - Added relative link to the for my pictue in the about sectio
 portfolio_sa_v2.7 - Added line divider between heading and image within the card in the "main" element (contact.html line 90); Added form elements for First and Last name, Email Address, and Message (contact.html line 92-132); Added a top padding of 20px to the feilds mentioned above to space them out (style.css lines 22-24).
 
 portfolio_sa_v2.8 - Added viewport meta element, ensuring content will be display properly according to the device width (index.html portfolio.html contact.html line 10).
+
+portfolio_sa_v2.8 - Added a font size to the footer as it was overflowing (index.html portfolio.html contact.html lins 119, 113, 148);
  
 
 to-do:
