@@ -127,11 +127,13 @@ portfolio_sa_v2.8 - Added viewport meta element, ensuring content will be displa
 
 portfolio_sa_v2.9 - Added a font size to the footer as it was overflowing (index.html portfolio.html contact.html lins 119, 113, 148); 
  
-portfolio_sa_v3.0 - Added 8px space between footer and cards on all three pages (style.css line 17); Added unique class names to the div elements that contain the forms in contact page to adjust spacing (contact.html lines 117, 124); Added selector form-group-2 and property to add space between the submit button and the message form element in contact page (style.css line 31-33); Removed commented out lines (style.css lines 54-56); Added 6 card elements within the main portfolio card element, with place holder images and headings to frame page layout (portfolio.html lines 92-166). 
+portfolio_sa_v3.0 - Added 8px space between footer and cards on all three pages (style.css line 17); Added unique class names to the div elements that contain forms elements in the "contact" page to adjust spacing (contact.html lines 117, 124); Added selector "form-group-2" and property to add space between the submit button and the "message" form element in "contact" page (style.css line 31-33); Removed commented-out lines (style.css lines 54-56); Added 6 card elements within the main portfolio card element, with place holder images and headings to frame page layout (portfolio.html lines 92-166). 
+
+portfolio_sa_v3.1 - Added class "row-1" to the first row of cards (portfolio.html line 92); Added class selector "row-1" and property to add 12px of space between the line border, and the first row of cards in portfolio page (style.css lines 25-27). 
 
 
 to-do:
-Add personal content to index.html, portfolio.html. Review page styling and markup for correctness; clean up any errors using dev tools. 
+Add personal content to index.html, portfolio.html. Review page styling and markup for correctness; clean up any errors using dev tools. Reduce the spacing between line and image in about me page while in mobile it feels out of proportion.
 
 - - -
 
