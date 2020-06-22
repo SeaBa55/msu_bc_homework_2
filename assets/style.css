@@ -14,9 +14,13 @@ body {
   /* Height at which footer collapses */
   margin-bottom: 40px;
 }
-  
+ 
 .line {
   border-top: 1px solid;
+}
+
+.form-group{
+  padding-top: 20px;
 }
 
 /* Center Image max width when below md sizes*/

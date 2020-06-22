@@ -119,10 +119,12 @@ portfolio_sa_v2.4 - Copied all the changes made to improve the nav bar, footer, 
 
 portfolio_sa_v2.5 - Added class="float-md-left" to float left on viewports sized MD (medium) or wider as configred at the moment (index.html lines 92, 96); Added class="TextWrap" to index.html (index.html line 94), and .TextWrap selector with image centering properties for mobile (style.css lines 23-28).
 
-portfolio_sa_v2.6 - Added relative link to the for my pictue in the about section (index.html line 94) "about"Removed img selector and its properties (style.css lines 32-34); Added padding to my image to give space between the picture and the text wrap (style.css lines 28,29);
+portfolio_sa_v2.6 - Added relative link to the for my pictue in the about section (index.html line 94) "about" Removed img selector and its properties (style.css lines 32-34); Added padding to my image to give space between the picture and the text wrap (style.css lines 28,29).
+
+portfolio_sa_v2.7 - Added line divider between heading and image withing the card in the "main" element (contact.html line 90); Added form elements for First and Last name, Email Address, and Message (contact.html line 92-132); Added a top padding of 20px to the feilds mentioned above to space them out (style.css lines 22-24).
 
 to-do:
-Add personal content to index.html, portfolio.html & contact.html. Add structure to portfolio.html & contact.html. 
+Add personal content to index.html, portfolio.html & contact.html. Add structure to portfolio.html. 
 
 - - -
 
