@@ -3,6 +3,7 @@ html {
   min-height: 100%;
 }
 
+
 body {
   padding: 0;
   margin: 0;
@@ -11,17 +12,26 @@ body {
   line-height: 150%;
   color: #333;
   background: #efeee7;
-  /* Height at which footer collapses */
-  margin-bottom: 40px;
+
+  /* Height at which footer collapses; 40px + 8px space between card and footer*/
+  margin-bottom: 48px;
 }
  
+
 .line {
   border-top: 1px solid;
 }
 
+
 .form-group{
   padding-top: 20px;
 }
+
+
+.form-group-2{
+  padding-bottom: 20px;
+}
+
 
 /* Center Image max width when below md sizes*/
 .TextWrap{
@@ -32,7 +42,8 @@ body {
   padding-top: 50px;
   padding-right: 15px;
 }
- 
+
+
 /* Sticky footer properties */
 .footer {
   position: absolute;
@@ -51,6 +62,3 @@ body {
   text-align: center;
   font-size: 12px;
 }
-/* .my-foot-text{
-  font-size: 10px;;
-} */

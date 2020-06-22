@@ -125,11 +125,13 @@ portfolio_sa_v2.7 - Added line divider between heading and image within the card
 
 portfolio_sa_v2.8 - Added viewport meta element, ensuring content will be display properly according to the device width (index.html portfolio.html contact.html line 10).
 
-portfolio_sa_v2.8 - Added a font size to the footer as it was overflowing (index.html portfolio.html contact.html lins 119, 113, 148);
+portfolio_sa_v2.9 - Added a font size to the footer as it was overflowing (index.html portfolio.html contact.html lins 119, 113, 148); 
  
+portfolio_sa_v3.0 - Added 8px space between footer and cards on all three pages (style.css line 17); Added unique class names to the div elements that contain the forms in contact page to adjust spacing (contact.html lines 117, 124); Added selector form-group-2 and property to add space between the submit button and the message form element in contact page (style.css line 31-33); Removed commented out lines (style.css lines 54-56); Added 6 card elements within the main portfolio card element, with place holder images and headings to frame page layout (portfolio.html lines 92-166). 
+
 
 to-do:
-Add personal content to index.html, portfolio.html & contact.html. Add structure to portfolio.html. 
+Add personal content to index.html, portfolio.html. Review page styling and markup for correctness; clean up any errors using dev tools. 
 
 - - -
 
