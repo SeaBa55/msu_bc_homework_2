@@ -133,8 +133,10 @@ portfolio_sa_v3.1 - Added class "row-1" to the first row of cards (portfolio.htm
 
 portfolio_sa_v3.2 - Added personal text to the about me section (occured prev commit)(index.html lines 101-105); Added image of oil pan project final design, to my first card in my portfolio page (portfolio.html line 99); Spelled out my name in the alt attribute for my pictue in the "about" page (index.html line 96). Added pictures as well as height/ width properties to scale the images (portfolio.html lines 99,110,121,138,149,160); Changed all the card headings from h5 to h6 size, aswell as the heading text to be descriptive (portfolio.html lines 97,108,119,136,147,158).
 
-to-do:
-Add personal content to index.html, portfolio.html. Review page styling and markup for correctness; clean up any errors using dev tools. Reduce the spacing between line and image in about me page while in mobile it feels out of proportion. portfolio first image needs resize.
+portfolio_sa_v3.3 - Added class "cardHeight" to to all cards in the portfolio page for card height control (portfolio.html lines 95, 106, 117, 134, 145, 156); Made all the classes associates with the images in the cards the same to define a uniform height, and removed height/ width properties (properties.html lines 138, 149, 160); Added class selector "cardHeight" and set height to 200px (style.css lines 41-43); Added class selector "Project" and set height/ width properties as well as image centering properties (style.css lines 31-39).
+
+Future to do:
+Add modal images to the portfolio so the user doesnt have to zoom into the browser to get a closer look.
 
 - - -
 
