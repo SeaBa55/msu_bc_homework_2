@@ -131,9 +131,10 @@ portfolio_sa_v3.0 - Added 8px space between footer and cards on all three pages 
 
 portfolio_sa_v3.1 - Added class "row-1" to the first row of cards (portfolio.html line 92); Added class selector "row-1" and property to add 12px of space between the line border, and the first row of cards in portfolio page (style.css lines 25-27). 
 
+portfolio_sa_v3.2 - Added personal text to the about me section (occured prev commit)(index.html lines 101-105); Added image of oil pan project final design, to my first card in my portfolio page (portfolio.html line 99); Spelled out my name in the alt attribute for my pictue in the "about" page (index.html line 96). Added pictures as well as height/ width properties to scale the images (portfolio.html lines 99,110,121,138,149,160); Changed all the card headings from h5 to h6 size, aswell as the heading text to be descriptive (portfolio.html lines 97,108,119,136,147,158).
 
 to-do:
-Add personal content to index.html, portfolio.html. Review page styling and markup for correctness; clean up any errors using dev tools. Reduce the spacing between line and image in about me page while in mobile it feels out of proportion.
+Add personal content to index.html, portfolio.html. Review page styling and markup for correctness; clean up any errors using dev tools. Reduce the spacing between line and image in about me page while in mobile it feels out of proportion. portfolio first image needs resize.
 
 - - -
 
